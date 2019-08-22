@@ -10,8 +10,8 @@ namespace Denis_Partner_Group.Repositories
 {
     public class PatrimonioRepository : IPatrimonioRepository
     {
-        private string StringConexao = "Data Source=.\\SqlExpress; Initial Catalog= PARTNER_GROUP_DENIS; user id=sa; password=132";
-        //private string StringConexao = "Data Source=.\\SqlExpress; initial catalog= PARTNER_GROUP_DENIS; integrated security=true";
+        private string StringConexao = "Data Source=36864133885; Initial Catalog= PARTNER_GROUP; user id=sa; password=S#nai@132";
+        //private string StringConexao = "Data Source=36864133885; initial catalog= PARTNER_GROUP; integrated security=true";
 
         public void Cadastrar(PatrimonioDomain patrimonio)
         {
@@ -36,7 +36,7 @@ namespace Denis_Partner_Group.Repositories
 
         public List<PatrimonioDomain> ListarTodos()
         {
-            string QuerySelect = "SELECT NOME, MARCAID, DESCRICAO FROM PATRIMONIO";
+            string QuerySelect = "SELECT NOME,MARCAID,DESCRICAO,NUMERO_TOMBO FROM PATRIMONIO;";
 
             List<PatrimonioDomain> ListaPatrimonio = new List<PatrimonioDomain>();
 
@@ -54,8 +54,9 @@ namespace Denis_Partner_Group.Repositories
                         PatrimonioDomain patrimonio = new PatrimonioDomain
                         {                       
                             Nome = sdr["NOME"].ToString(),
-                            MarcaId = Convert.ToInt32(sdr["id"]),
-                            Descricao = sdr["DESCRICAO"].ToString()
+                            MarcaId = Convert.ToInt32(sdr["MARCAID"]),
+                            Descricao = sdr["DESCRICAO"].ToString(),
+                            NumeroTombo = Convert.ToInt32(sdr["NUMERO_TOMBO"])
                         };
 
                         ListaPatrimonio.Add(patrimonio);

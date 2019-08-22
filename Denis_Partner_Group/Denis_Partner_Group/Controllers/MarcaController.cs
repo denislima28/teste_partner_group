@@ -28,11 +28,12 @@ namespace Denis_Partner_Group.Controllers
         {
             try
             {
-                return Ok(MarcaRepository.ListarTodos());
+                var marcas = MarcaRepository.ListarTodos();
+                return Ok(marcas);
             }
             catch (Exception ex)
             {
-                return BadRequest();
+                return BadRequest(ex.Message);
             }
         }
 

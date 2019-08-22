@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "7a401ba1-e1e7-4450-9d03-c30eefc8dcc8",
+		"name": "partner_group",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:5000/api/marca",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/api/marca",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"marca"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/patrimonio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/api/patrimonio",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"patrimonio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/patrimonio",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"nome\": \"PATRIMONIOTESTEpostman_novo\",\r\n        \"descricao\": \"DESCRICAOTESTEpostman_novo\",\r\n        \"marcaId\": 1\r\n    }"
+				},
+				"url": {
+					"raw": "localhost:5000/api/patrimonio",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"patrimonio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/marca",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"nome\": \"POSTMAN_TESTE_novo\"\r\n    }"
+				},
+				"url": {
+					"raw": "localhost:5000/api/marca",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"marca"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

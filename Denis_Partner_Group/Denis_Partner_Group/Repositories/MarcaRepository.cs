@@ -10,9 +10,9 @@ namespace Denis_Partner_Group.Repositories
 {
     public class MarcaRepository : IMarcaRepository
     {
-        private string StringConexao = "Data Source=.\\SqlExpress; Initial Catalog= PARTNER_GROUP_DENIS; user id=sa; password=132";
-        //private string StringConexao = "Data Source=.\\SqlExpress; initial catalog= PARTNER_GROUP_DENIS; integrated security=true";
-      
+        private string StringConexao = "Data Source=36864133885; Initial Catalog= PARTNER_GROUP; user id=sa; password=S#nai@132";
+        //private string StringConexao = "Data Source=36864133885; initial catalog= PARTNER_GROUP; integrated security=true";
+
         public void Cadastrar(MarcaDomain marca)
         {
             using (SqlConnection con = new SqlConnection(StringConexao))
@@ -32,7 +32,7 @@ namespace Denis_Partner_Group.Repositories
 
         public List<MarcaDomain> ListarTodos()
         {
-            string QuerySelect = "SELECT MARCAID, NOME FROM MARCA";
+            string QuerySelect = "SELECT * FROM MARCA";
 
             List<MarcaDomain> ListaMarca = new List<MarcaDomain>();
 
@@ -49,7 +49,7 @@ namespace Denis_Partner_Group.Repositories
                     {
                         MarcaDomain marca = new MarcaDomain
                         {
-                            MarcaId = Convert.ToInt32(sdr["id"]),
+                            MarcaId = Convert.ToInt32(sdr["MARCAID"]),
                             Nome = sdr["NOME"].ToString()
                         };
 

@@ -26,3 +26,17 @@ C:\Users\36864133885\Desktop\TESTE_DENIS_PARTNER_GROUP\Denis_Partner_Group\Denis
 C:\Users\36864133885\Desktop\TESTE_DENIS_PARTNER_GROUP\Denis_Partner_Group\Denis_Partner_Group\bin\Debug\netcoreapp2.1\Denis_Partner_Group.dll
 C:\Users\36864133885\Desktop\TESTE_DENIS_PARTNER_GROUP\Denis_Partner_Group\Denis_Partner_Group\bin\Debug\netcoreapp2.1\Denis_Partner_Group.pdb
 C:\Users\36864133885\Desktop\TESTE_DENIS_PARTNER_GROUP\Denis_Partner_Group\Denis_Partner_Group\obj\Debug\netcoreapp2.1\Denis_Partner_Group.RazorTargetAssemblyInfo.cache
+C:\Users\36864133885\Desktop\teste_partner_group\Denis_Partner_Group\Denis_Partner_Group\bin\Debug\netcoreapp2.1\Denis_Partner_Group.deps.json
+C:\Users\36864133885\Desktop\teste_partner_group\Denis_Partner_Group\Denis_Partner_Group\bin\Debug\netcoreapp2.1\Denis_Partner_Group.runtimeconfig.json
+C:\Users\36864133885\Desktop\teste_partner_group\Denis_Partner_Group\Denis_Partner_Group\bin\Debug\netcoreapp2.1\Denis_Partner_Group.runtimeconfig.dev.json
+C:\Users\36864133885\Desktop\teste_partner_group\Denis_Partner_Group\Denis_Partner_Group\bin\Debug\netcoreapp2.1\Denis_Partner_Group.dll
+C:\Users\36864133885\Desktop\teste_partner_group\Denis_Partner_Group\Denis_Partner_Group\bin\Debug\netcoreapp2.1\Denis_Partner_Group.pdb
+C:\Users\36864133885\Desktop\teste_partner_group\Denis_Partner_Group\Denis_Partner_Group\obj\Debug\netcoreapp2.1\Denis_Partner_Group.csprojAssemblyReference.cache
+C:\Users\36864133885\Desktop\teste_partner_group\Denis_Partner_Group\Denis_Partner_Group\obj\Debug\netcoreapp2.1\Denis_Partner_Group.csproj.CoreCompileInputs.cache
+C:\Users\36864133885\Desktop\teste_partner_group\Denis_Partner_Group\Denis_Partner_Group\obj\Debug\netcoreapp2.1\Denis_Partner_Group.RazorAssemblyInfo.cache
+C:\Users\36864133885\Desktop\teste_partner_group\Denis_Partner_Group\Denis_Partner_Group\obj\Debug\netcoreapp2.1\Denis_Partner_Group.RazorAssemblyInfo.cs
+C:\Users\36864133885\Desktop\teste_partner_group\Denis_Partner_Group\Denis_Partner_Group\obj\Debug\netcoreapp2.1\Denis_Partner_Group.AssemblyInfoInputs.cache
+C:\Users\36864133885\Desktop\teste_partner_group\Denis_Partner_Group\Denis_Partner_Group\obj\Debug\netcoreapp2.1\Denis_Partner_Group.AssemblyInfo.cs
+C:\Users\36864133885\Desktop\teste_partner_group\Denis_Partner_Group\Denis_Partner_Group\obj\Debug\netcoreapp2.1\Denis_Partner_Group.RazorTargetAssemblyInfo.cache
+C:\Users\36864133885\Desktop\teste_partner_group\Denis_Partner_Group\Denis_Partner_Group\obj\Debug\netcoreapp2.1\Denis_Partner_Group.dll
+C:\Users\36864133885\Desktop\teste_partner_group\Denis_Partner_Group\Denis_Partner_Group\obj\Debug\netcoreapp2.1\Denis_Partner_Group.pdb
